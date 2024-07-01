@@ -10,6 +10,6 @@ def test_signin_form(driver):
     driver.find_element(By.XPATH, PASSWORD_FIELD).send_keys(PASSWORD)
     cookies_btn = driver.find_element(By.XPATH, "//*[@id='btn-set']").click()
     driver.find_element(*SIGN_IN_BTN)
-    time.sleep(5)
+    time.sleep(3)
     assert driver.current_url == "https://teamsideline.com/Team/SignIn.aspx"
 
