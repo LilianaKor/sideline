@@ -19,9 +19,3 @@ def test_text_and_email(browser):
 
 
 
-#
-# def test_text_and_email():
-#     browser = webdriver.Chrome()
-#     browser.get('https://go.teamsideline.com/')
-#     browser.find_element('xpath', '//a[text()="Text, Email, Chat Communications Notifications & More"]').click()
-#     assert browser.title(By.XPATH, '//h1[@class="page-header"]/span[text()="Text and Email Communications"]').is visible
