@@ -26,3 +26,6 @@ def test_sample_data(sample_data):
 
 
 # pytest -s -v test_yield.py - pass
+
+#python -m pytest --alluredir allure-results
+#allure serve allure-results

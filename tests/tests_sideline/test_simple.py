@@ -17,3 +17,5 @@ def test_email_format(fake_email):
 
 
 #pytest -s -v test_simple.py - pass
+#cd ~/PycharmProjects/sideline
+#source venv/bin/activate
